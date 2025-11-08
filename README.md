@@ -67,3 +67,25 @@ Once all tests are passing and working code is pushed to the GitHub main branch,
 The application passes all test suites.
 * Get json data
 * Convert to Json
+
+# Flask Getting Remote Data Lab
+
+This project demonstrates how to fetch remote data from an API using Python.
+
+## Class Overview
+**GetRequester** — a reusable helper class for sending HTTP GET requests and parsing JSON data.
+
+### Methods
+- `get_response_body()` — sends a GET request and returns raw bytes.  
+- `load_json()` — converts the response into Python data (dict or list).
+
+## Endpoint
+`https://learn-co-curriculum.github.io/json-site-example/endpoints/people.json`
+
+## Tests
+All tests passed successfully 
+
+### Screenshot
+All tests passed successfully 
+
+![Screenshot of successful tests](screenshot.png)
